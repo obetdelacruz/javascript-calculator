@@ -7,38 +7,38 @@
     <link rel="stylesheet" href="style.css" />
     <title>JS Calculator</title>
   </head>
-  <div id="root">
-    <h1>Calculator</h1>
-    <div class="main">
-      <div class="display">
-        <p class="small-display">123</p>
-        <p class="large-display">0</p>
-      </div>
-      <div class="inputs">
-        <button class="is-clear">C</button>
-        <button class="divide-operator-btn">&divide;</button>
-        <button class="is-num">7</button>
-        <button class="is-num">8</button>
-        <button class="is-num">9</button>
-        <button class="times-operator-btn">&times;</button>
+  <body>
+    <div id="root">
+      <h1>Calculator</h1>
+      <div class="main">
+        <div class="display">
+          <input type="text" class="small-display" />
+          <input type="text" class="large-display" placeholder="0" />
+        </div>
+        <div class="inputs">
+          <button class="is-clear">C</button>
+          <button class="is-operator">&divide;</button>
 
-        <button class="is-num">4</button>
-        <button class="is-num">5</button>
-        <button class="is-num">6</button>
-        <button class="minus-operator-btn">&minus;</button>
+          <button class="is-num">7</button>
+          <button class="is-num">8</button>
+          <button class="is-num">9</button>
+          <button class="is-operator">&times;</button>
 
-        <button class="is-num">1</button>
-        <button class="is-num">2</button>
-        <button class="is-num">3</button>
-        <button class="plus-operator-btn">&plus;</button>
+          <button class="is-num">4</button>
+          <button class="is-num">5</button>
+          <button class="is-num">6</button>
+          <button class="is-operator">&minus;</button>
 
-        <button class="is-zero is-num">0</button>
-        <button class="equal-operator-btn">&equals;</button>
+          <button class="is-num">1</button>
+          <button class="is-num">2</button>
+          <button class="is-num">3</button>
+          <button class="is-operator">&plus;</button>
+
+          <button class="is-num is-zero">0</button>
+          <button class="is-equals">&equals;</button>
+        </div>
       </div>
     </div>
-  </div>
-
-  <body>
     <script src="script.js"></script>
   </body>
 </html>
