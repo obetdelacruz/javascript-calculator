@@ -23,8 +23,9 @@ h1 {
 .main {
   padding: 1em;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
+  background-color: black;
 }
 
 @media screen and (min-width: 601px) and (max-width: 960px) {
@@ -53,12 +54,11 @@ h1 {
 }
 
 .small-display {
-  font-size: 16px;
-  margin-bottom: 5px;
+  font-size: 25px;
 }
 
 .large-display {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .inputs {
@@ -71,13 +71,22 @@ h1 {
   font-size: 28px;
   padding: 20px;
   color: white;
-  background-color: gray;
+  background-color: #3b3b3b;
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 180px;
+}
+
+.divide-button,
+.times-button,
+.minus-button,
+.plus-button,
+.equals-button {
+  background-color: coral !important;
 }
 
 .inputs button:hover {
   cursor: pointer;
+  color: black;
 }
 
 .is-zero,
